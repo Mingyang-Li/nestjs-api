@@ -8,7 +8,7 @@ async function bootstrap() {
 
   const options = new DocumentBuilder()
     .setTitle('Conduit Blog API')
-    .setDescription('NHTC API')
+    .setDescription('NHTC ')
     .setVersion('1.0.0')
     .addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'Token' },
@@ -21,7 +21,7 @@ async function bootstrap() {
   await app.listen(4000);
 
   console.log('===============================');
-  console.log(`= ✅ App running on port ${4000} =`);
+  console.log(`= 🚀 App running on port ${4000} =`);
   console.log('===============================');
 }
 bootstrap();
